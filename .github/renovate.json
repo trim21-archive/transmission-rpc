@@ -12,6 +12,12 @@
   ],
   "packageRules": [
     {
+      "packagePatterns": [
+        "^sphinx"
+      ],
+      "rangeStrategy": "pin"
+    },
+    {
       "depTypeList": [
         "dev-dependencies"
       ],
